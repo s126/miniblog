@@ -13,8 +13,6 @@
 
         <div>
             <form:errors path="*" cssClass="error" element="p" />
-           <%-- <form:errors path="name" cssClass="error" element="div" />
-            <form:errors path="age" cssClass="error" element="p" />--%>
         </div>
 
         <div>
@@ -23,7 +21,12 @@
         <div>
             <form:input type="number" path="age" />
         </div>
+        <div>
+            <form:input type="date" path="birth" />
+        </div>
+
         <input type="submit" value="注册" />
+
     </form:form>
 </div>
 

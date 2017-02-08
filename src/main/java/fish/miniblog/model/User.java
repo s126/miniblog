@@ -1,8 +1,14 @@
 package fish.miniblog.model;
 
+import java.util.Date;
+
 public class User {
+
     private String name;
+
     private int age;
+
+    private Date birth = null;
 
     public String getName() {
         return name;
@@ -20,11 +26,21 @@ public class User {
         this.age = age;
     }
 
+
+    public Date getBirth() {
+        return birth;
+    }
+
+    public void setBirth(Date birth) {
+        this.birth = birth;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", birth=" + birth +
                 '}';
     }
 }

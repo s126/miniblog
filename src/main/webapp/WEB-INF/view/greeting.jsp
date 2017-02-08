@@ -15,6 +15,6 @@
 
 </head>
 <body>
-    <h1>你好！ ${user.name}(你现在是 ${user.age} 岁)</h1>
+    <h1>你好！ ${user.name}(你现在是 ${user.age} 岁. ${user.birth})</h1>
 </body>
 </html>
