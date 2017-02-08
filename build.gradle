@@ -10,6 +10,7 @@ sourceCompatibility = 1.7
 // 配置下载 jar 包的地址
 repositories {
   mavenCentral()
+  jcenter()
 }
 
 // 配置需要的 jar 包依赖

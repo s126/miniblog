@@ -8,13 +8,13 @@
 
     <script type="text/javascript">
         $(function () {
-            alert($("h1").text());
+            // alert($("h1").text());
         })
     </script>
 
 
 </head>
 <body>
-    <h1>你好！ ${name}</h1>
+    <h1>你好！ ${user.name}(你现在是 ${user.age} 岁)</h1>
 </body>
 </html>
