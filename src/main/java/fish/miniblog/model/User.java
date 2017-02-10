@@ -1,5 +1,7 @@
 package fish.miniblog.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 public class User {
@@ -8,6 +10,7 @@ public class User {
 
     private int age;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date birth = null;
 
     public String getName() {
