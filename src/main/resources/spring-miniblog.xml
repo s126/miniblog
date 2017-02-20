@@ -18,8 +18,9 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
-    <bean class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
         <property name="basename" value="message" />
+        <property name="defaultEncoding" value="GBK" />
     </bean>
 
     <!-- 配置静态资源的访问映射 -->
