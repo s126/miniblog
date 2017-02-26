@@ -8,7 +8,7 @@ import java.util.Date;
 @Table(name = "EMPTY_POSTS")
 public class Post {
 
-    // ============== properties =============== //
+    // ============== props =============== //
 
     @Id
     @GeneratedValue

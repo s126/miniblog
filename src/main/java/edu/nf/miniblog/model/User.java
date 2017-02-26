@@ -9,7 +9,7 @@ import java.util.*;
 @Table(name = "EMPTY_USERS")
 public class User {
 
-    // ============== properties =============== //
+    // ============== props =============== //
 
     @Id
     @GeneratedValue
